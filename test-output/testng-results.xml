@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-01T19:48:42 IST" name="Suite" finished-at="2023-11-01T19:49:59 IST" duration-ms="76686">
+    <groups>
+    </groups>
+    <test started-at="2023-11-01T19:48:42 IST" name="Test1" finished-at="2023-11-01T19:48:50 IST" duration-ms="7702">
+      <class name="com.obsqura.test.LoginTest">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.obsqura.test.LoginTest@2f953efd]" started-at="2023-11-01T19:48:43 IST" name="initializeDriver" finished-at="2023-11-01T19:48:48 IST" duration-ms="5000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="incorrectLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.obsqura.test.LoginTest@2f953efd]" started-at="2023-11-01T19:48:48 IST" name="incorrectLoginTest" data-provider="getData" finished-at="2023-11-01T19:48:49 IST" duration-ms="952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectLoginTest -->
+        <test-method signature="incorrectLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.obsqura.test.LoginTest@2f953efd]" started-at="2023-11-01T19:48:49 IST" name="incorrectLoginTest" data-provider="getData" finished-at="2023-11-01T19:48:49 IST" duration-ms="643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yui]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectLoginTest -->
+        <test-method signature="loginTest()[pri:0, instance:com.obsqura.test.LoginTest@2f953efd]" started-at="2023-11-01T19:48:49 IST" name="loginTest" finished-at="2023-11-01T19:48:50 IST" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.test.LoginTest@2f953efd]" started-at="2023-11-01T19:48:50 IST" name="tearDown" finished-at="2023-11-01T19:48:50 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.test.LoginTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-11-01T19:48:51 IST" name="Test2" finished-at="2023-11-01T19:49:08 IST" duration-ms="16748">
+      <class name="com.obsqura.test.AddAdminUserTest">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.obsqura.test.AddAdminUserTest@50f6ac94]" started-at="2023-11-01T19:48:51 IST" name="initializeDriver" finished-at="2023-11-01T19:48:54 IST" duration-ms="2574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="addAdminUser()[pri:0, instance:com.obsqura.test.AddAdminUserTest@50f6ac94]" started-at="2023-11-01T19:48:54 IST" name="addAdminUser" finished-at="2023-11-01T19:48:59 IST" duration-ms="5494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAdminUser -->
+        <test-method signature="addExistingUser()[pri:0, instance:com.obsqura.test.AddAdminUserTest@50f6ac94]" started-at="2023-11-01T19:48:59 IST" name="addExistingUser" finished-at="2023-11-01T19:49:03 IST" duration-ms="3895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExistingUser -->
+        <test-method signature="searchUser()[pri:0, instance:com.obsqura.test.AddAdminUserTest@50f6ac94]" started-at="2023-11-01T19:49:03 IST" name="searchUser" finished-at="2023-11-01T19:49:07 IST" duration-ms="4432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.test.AddAdminUserTest@50f6ac94]" started-at="2023-11-01T19:49:07 IST" name="tearDown" finished-at="2023-11-01T19:49:08 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.test.AddAdminUserTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-11-01T19:49:08 IST" name="Test3" finished-at="2023-11-01T19:49:59 IST" duration-ms="51260">
+      <class name="com.obsqura.test.CreateDeleteEditExpenseTest">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.obsqura.test.CreateDeleteEditExpenseTest@45efd90f]" started-at="2023-11-01T19:49:08 IST" name="initializeDriver" finished-at="2023-11-01T19:49:10 IST" duration-ms="2441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="createExpense()[pri:0, instance:com.obsqura.test.CreateDeleteEditExpenseTest@45efd90f]" started-at="2023-11-01T19:49:10 IST" name="createExpense" finished-at="2023-11-01T19:49:20 IST" duration-ms="9429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExpense -->
+        <test-method signature="editExpense()[pri:1, instance:com.obsqura.test.CreateDeleteEditExpenseTest@45efd90f]" started-at="2023-11-01T19:49:20 IST" name="editExpense" finished-at="2023-11-01T19:49:37 IST" duration-ms="17199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editExpense -->
+        <test-method signature="deleteExpense()[pri:2, instance:com.obsqura.test.CreateDeleteEditExpenseTest@45efd90f]" started-at="2023-11-01T19:49:37 IST" name="deleteExpense" finished-at="2023-11-01T19:49:49 IST" duration-ms="12294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteExpense -->
+        <test-method signature="invalidInputTest()[pri:3, instance:com.obsqura.test.CreateDeleteEditExpenseTest@45efd90f]" started-at="2023-11-01T19:49:49 IST" name="invalidInputTest" finished-at="2023-11-01T19:49:59 IST" duration-ms="9552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidInputTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.test.CreateDeleteEditExpenseTest@45efd90f]" started-at="2023-11-01T19:49:59 IST" name="tearDown" finished-at="2023-11-01T19:49:59 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.test.CreateDeleteEditExpenseTest -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
